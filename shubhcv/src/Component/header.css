@@ -1,0 +1,71 @@
+.header {
+  background-color: gray;
+  width: auto;
+  height: 500px;
+}
+.img-h {
+  float: left;
+}
+.img-b {
+  width: 320px;
+  height: 320px;
+  position: relative;
+}
+.img-b .border {
+  /* content: ''; */
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: transparent;
+  border-radius: 50%;
+  border: 5px dashed #9b9292 !important;
+  animation-name: Rotate;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+.img-b {
+  margin-top: -7px;
+  top: 80px;
+}
+
+.img-h {
+  padding: -11px;
+  width: 300px;
+  margin: 9px;
+  height: 300px;
+  border-radius: 50%;
+  /* font-size: 12px !important; */
+  box-shadow: 10px 10px 10px 10px;
+
+  text-align: center;
+}
+@keyframes Rotate {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+.info {
+  font-size: 40px;
+  margin-top: -220px;
+}
+.shubh {
+  font-size: 60px;
+  width: 60%;
+  float: right;
+  border-bottom: 2px solid #ffff;
+}
+.kumar {
+  color: #ffff;
+}
+.soft {
+  font-size: 40px;
+  margin-top: 77px;
+
+  margin-left: 450px;
+}

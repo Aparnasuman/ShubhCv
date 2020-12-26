@@ -1,0 +1,17 @@
+.navbar {
+  background-image: linear-gradient(
+    to right,
+    #1b1919 18%,
+    #c0c0ad 0%
+  ) !important;
+}
+.navbar-brand {
+  color: rgb(255 252 252 / 90%) !important;
+  margin: 0px 50px;
+}
+.navbar-nav {
+  margin: 0px 100px !important ;
+}
+.nav-link {
+  margin: 0px 20px !important;
+}
