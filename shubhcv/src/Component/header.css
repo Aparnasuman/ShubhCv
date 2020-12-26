@@ -69,3 +69,39 @@
 
   margin-left: 450px;
 }
+
+@media only screen and (max-width: 600px) {
+  .info {
+    margin-top: 107px;
+  }
+
+  .shubh {
+    font-size: 30px;
+    float: none;
+    /* margin-top: -1px; */
+    width: 100%;
+    margin-top: 20px;
+  }
+  .soft {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 0px;
+  }
+  .img-b {
+    width: 250px;
+    height: 250px;
+    margin-left: 40px;
+    position: relative;
+  }
+  .img-h {
+    padding: -11px;
+    width: 248px;
+    margin: 0px;
+    height: 248px;
+    border-radius: 50%;
+    /* font-size: 12px !important; */
+    box-shadow: 10px 10px 10px 10px;
+
+    text-align: center;
+  }
+}
