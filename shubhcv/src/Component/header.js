@@ -8,12 +8,12 @@ class Header extends React.Component {
                 <div className="container">
 
 
-                    <div className="info-img">
+                    <div className="info-img row">
                         <div className="img-b">
                             <div class="border"></div>
                             <img src={shubh} alt="shubh" className="d-block w-5 img-h" />
                         </div>
-                        <div className="info">
+                        <div className="info ">
                             <h1 className="shubh">SHUBHAM <span className="kumar">KUMAR</span></h1>
                             <h3 className="soft">SOFTWARE DEVELOPER</h3>
                         </div>
