@@ -4,16 +4,17 @@
 .info-img {
   padding: 75px 0px;
 }
-.row {
+/*.row {
   margin-left: 0px !important;
   margin-right: 0px !important;
-}
+}*/
 .img-b {
   width: 350px;
   height: 350px;
   position: relative;
+  text-align: center;
 }
-.img-b .border {
+.img-b .intro-pic-border {
   /* content: ''; */
   position: absolute;
   top: 0;
@@ -24,7 +25,7 @@
   border-radius: 50%;
   border: 5px dashed #e5e1e1 !important;
   animation-name: Rotate;
-  animation-duration: 2s;
+  animation-duration: 5s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
   animation-name: Rotate;
@@ -32,15 +33,15 @@
 .info {
   margin-top: 15%;
 }
-.shubh {
+.firstName {
   font-size: 4rem;
   border-bottom: 5px solid #fff;
-  margin-left: 99px;
+  /*margin-left: 99px;*/
 }
-.kumar {
+.lastName {
   color: #ffff;
 }
-.soft {
+.designation {
   font-size: 2rem;
   margin-left: 40px;
 }
