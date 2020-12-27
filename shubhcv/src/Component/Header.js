@@ -1,6 +1,6 @@
 import React from "react";
-import "./header.css";
-import shubh from "../img/shubh.jpg";
+import "./Header.css";
+import introPic from "../img/shubh.jpg";
 class Header extends React.Component {
   render() {
     return (
@@ -9,16 +9,20 @@ class Header extends React.Component {
           <div className="info-img row">
             <div className="col-md-4">
               <div className="img-b m-auto">
-                <div class="border"></div>
-                <img src={shubh} alt="shubh" className="d-block w-5 img-h" />
+                <div class="intro-pic-border"></div>
+                <img
+                  src={introPic}
+                  alt="cv profile"
+                  className="d-block w-5 img-h"
+                />
               </div>
             </div>
             <div class="col-md-8">
               <div className="info">
-                <h1 className="shubh">
-                  SHUBHAM <span className="kumar">KUMAR</span>
+                <h1 className="firstName">
+                  SHUBHAM <span className="lastName">KUMAR</span>
                 </h1>
-                <h3 className="soft">SOFTWARE DEVELOPER</h3>
+                <h3 className="designation">SOFTWARE ENGINEER</h3>
               </div>
             </div>
           </div>
