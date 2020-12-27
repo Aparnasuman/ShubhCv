@@ -5,13 +5,14 @@
   padding: 75px 0px;
 }
 .row {
-  margin-left: 0px !important;
-  margin-right: 0px !important;
+  /*margin-left: 0px !important;
+  margin-right: 0px !important;*/
 }
 .img-b {
   width: 350px;
   height: 350px;
   position: relative;
+  text-align: center;
 }
 .img-b .border {
   /* content: ''; */
@@ -35,7 +36,7 @@
 .shubh {
   font-size: 4rem;
   border-bottom: 5px solid #fff;
-  margin-left: 99px;
+  /*margin-left: 99px;*/
 }
 .kumar {
   color: #ffff;
