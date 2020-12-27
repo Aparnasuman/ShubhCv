@@ -1,25 +1,17 @@
 .header {
   background-color: gray;
-  width: auto;
-  height: 500px;
 }
-.img-h {
-  float: left;
+.info-img {
+  padding: 75px 0px;
+}
+.row {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
 }
 .img-b {
-  width: 320px;
-  height: 320px;
+  width: 350px;
+  height: 350px;
   position: relative;
-}
-.info {
-  margin-top: 195px;
-}
-.shubh {
-  font-size: 60px;
-  border-bottom: 5px solid #fff;
-}
-.soft {
-  font-size: 40px;
 }
 .img-b .border {
   /* content: ''; */
@@ -30,28 +22,34 @@
   right: 0;
   background: transparent;
   border-radius: 50%;
-  border: 5px dashed #9b9292 !important;
+  border: 5px dashed #e5e1e1 !important;
   animation-name: Rotate;
   animation-duration: 2s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
+  animation-name: Rotate;
 }
-.img-b {
-  margin-top: -7px;
-  top: 80px;
+.info {
+  margin-top: 15%;
+}
+.shubh {
+  font-size: 4rem;
+  border-bottom: 5px solid #fff;
+  margin-left: 99px;
 }
 .kumar {
   color: #ffff;
 }
-.img-h {
-  padding: -11px;
-  width: 300px;
-  margin: 9px;
-  height: 300px;
-  border-radius: 50%;
-  /* font-size: 12px !important; */
-  box-shadow: 10px 10px 10px 10px;
+.soft {
+  font-size: 2rem;
+  margin-left: 40px;
+}
 
+.img-h {
+  height: 349px;
+  width: 349px;
+  box-shadow: 5px 5px 5px 5px #3e3c3c;
+  border-radius: 50%;
   text-align: center;
 }
 @keyframes Rotate {
@@ -62,52 +60,13 @@
     -webkit-transform: rotate(360deg);
   }
 }
-@media screen and (orientation: landscape) {
-  .info {
-    margin-top: -128px;
-    margin-left: 397px;
-  }
-}
+
 @media only screen and (max-width: 600px) {
-  .info {
-    margin-top: -128px;
-  }
-  .row {
-    margin-left: 0px !important;
-    margin-right: 0px !important;
-  }
-  .img-b {
-    margin-left: 29px;
-  }
-  .soft {
-    font-size: 20px !important;
-  }
-  .info {
-    margin-top: 104px !important;
-    margin-left: 33px;
-  }
-  .shubh {
-    font-size: 30px !important;
-  }
-  .info {
-    font-size: 20px !important;
-  }
   .img-b {
     width: 250px;
     height: 250px;
+    margin-left: 20px;
     position: relative;
-  }
-  .img-h {
-    padding: -11px;
-    width: 249px;
-
-    margin: 1px;
-    height: 249px;
-    border-radius: 50%;
-    /* font-size: 12px !important; */
-    box-shadow: 10px 10px 10px 10px;
-
-    text-align: center;
   }
   .img-b .border {
     /* content: ''; */
@@ -118,10 +77,27 @@
     right: 0;
     background: transparent;
     border-radius: 50%;
-    border: 5px dashed #9b9292 !important;
+    border: 5px dashed #e5e1e1 !important;
     animation-name: Rotate;
     animation-duration: 2s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
+    animation-name: Rotate;
+  }
+  .img-h {
+    height: 249px;
+    width: 249px;
+    box-shadow: 5px 5px 5px 5px #3e3c3c;
+    border-radius: 50%;
+    text-align: center;
+  }
+  .shubh {
+    font-size: 2rem;
+    border-bottom: 3px solid #fff;
+    margin-left: 0px;
+  }
+  .soft {
+    font-size: 1.5rem;
+    margin-left: 5px;
   }
 }

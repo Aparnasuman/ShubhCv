@@ -9,15 +9,18 @@ class Header extends React.Component {
 
 
                     <div className="info-img row">
-                        <div className="img-b">
-                            <div class="border"></div>
-                            <img src={shubh} alt="shubh" className="d-block w-5 img-h" />
+                        <div className="col-md-4">
+                            <div className="img-b">
+                                <div class="border"></div>
+                                <img src={shubh} alt="shubh" className="d-block w-5 img-h" />
+                            </div>
                         </div>
-                        <div className="info ">
-                            <h1 className="shubh">SHUBHAM <span className="kumar">KUMAR</span></h1>
-                            <h3 className="soft">SOFTWARE DEVELOPER</h3>
+                        <div class="col-md-8">
+                            <div className="info">
+                                <h1 className="shubh">SHUBHAM <span className="kumar">KUMAR</span></h1>
+                                <h3 className="soft">SOFTWARE DEVELOPER</h3>
+                            </div>
                         </div>
-
                     </div>
                 </div>
 
