@@ -7,7 +7,7 @@ class Header extends React.Component {
       <div className="header">
         <div className="container-fluid">
           <div className="info-img row">
-            <div className="col-md-4">
+            <div className="col-md-5">
               <div className="img-b m-auto">
                 <div class="intro-pic-border"></div>
                 <img
@@ -17,7 +17,7 @@ class Header extends React.Component {
                 />
               </div>
             </div>
-            <div class="col-md-8">
+            <div class="col-md-6">
               <div className="info">
                 <h1 className="firstName">
                   SHUBHAM <span className="lastName">KUMAR</span>
