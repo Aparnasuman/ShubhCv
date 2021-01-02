@@ -12,7 +12,7 @@ class Profiie extends React.Component {
                             I enjoy creating things that live on the internet, whether it is a web application or mobile application. My goal is to create secure, scalable products with better performance.
                             I did my Bachelors in Computer Science and Engineering from Lovely professional University and then opted for research at NITK.</p>
                         </div>
-                        <div className="col-md-6">
+                        <div className="col-md-6 pf">
                             <div id="mainDiv">
                                 <div id="boxDiv">
                                     <div id="front"></div>
@@ -23,6 +23,7 @@ class Profiie extends React.Component {
                                     <div id="bottom"></div>
 
                                     <div class="shadow"></div>
+
                                 </div>
                             </div>
                         </div>

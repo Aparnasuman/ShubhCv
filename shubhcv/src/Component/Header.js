@@ -3,6 +3,7 @@ import "./Header.css";
 import introPic from "../img/shubh.jpg";
 class Header extends React.Component {
   render() {
+    console.log("hdr")
     return (
       <div className="header">
         <div className="container-fluid">
