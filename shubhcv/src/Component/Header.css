@@ -1,5 +1,10 @@
 .header {
-  background-color: gray;
+  background-image: url("../img/BACK\ \(3\).jpg");
+  background-color: #cccccc;
+  height: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .info-img {
   padding: 75px 0px;

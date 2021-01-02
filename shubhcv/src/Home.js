@@ -2,6 +2,8 @@ import React from "react";
 import NavigationBar from "./Component/NavigationBar.js";
 import Header from "./Component/Header.js";
 import Profile from "./Component/Profile.js";
+import Experience from "./Component/Experience.js";
+import Education from "./Component/Education.js";
 class Home extends React.Component {
   render() {
     return (
@@ -9,6 +11,8 @@ class Home extends React.Component {
         <NavigationBar />
         <Header />
         <Profile />
+        <Experience />
+        <Education />
       </div>
     );
   }
