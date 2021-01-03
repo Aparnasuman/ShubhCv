@@ -4,6 +4,7 @@ import Header from "./Component/Header.js";
 import Profile from "./Component/Profile.js";
 import Experience from "./Component/Experience.js";
 import Education from "./Component/Education.js";
+import Skill from "./Component/Skill";
 class Home extends React.Component {
   render() {
     return (
@@ -13,6 +14,7 @@ class Home extends React.Component {
         <Profile />
         <Experience />
         <Education />
+        <Skill />
       </div>
     );
   }
