@@ -1,39 +1,62 @@
 import React from "react";
-import "./skill.css"
-const ProgressBar = (props) => {
-    const { bgcolor, completed, langauge } = props;
+import "./skill.css";
+import { useEffect, useState } from "react";
+const ProgressBar = ({
+    label,
+    backgroundColor = "#e5e5e5",
 
-    const containerStyles = {
-        height: 20,
-        width: '100%',
-        backgroundColor: "#e0e0de",
-        borderRadius: 50,
-        margin: 10
-    }
+    visualParts = [
+        {
+            percentage: "0%",
+            color: "white"
+        }
+    ]
+}) => {
 
-    const fillerStyles = {
-        height: '100%',
-        width: `${completed}%`,
-        backgroundColor: bgcolor,
-        borderRadius: 'inherit',
-        textAlign: 'right',
-    }
+    const [widths, setWidths] = useState(
+        visualParts.map(() => {
+            return 0;
+        })
+    );
 
-    const labelStyles = {
-        padding: 5,
-        color: 'white',
-        fontWeight: 'bold'
-    }
+    useEffect(() => {
+
+        requestAnimationFrame(() => {
+
+            setWidths(
+                visualParts.map(item => {
+                    return item.percentage;
+                })
+            );
+        });
+    }, [visualParts]);
 
     return (
-        <div>
-            <h1 className="lang"> {`${langauge}`} </h1>
-            <div style={containerStyles}>
-                <div style={fillerStyles} className="animate">
-                    <span style={labelStyles}>{`${completed}%`}</span>
-                </div>
+        <>
+            <div className="progressLabel">{label}</div>
+            <div
+                className="progressVisualFull"
+                style={{
+                    backgroundColor
+                }}
+            >
+                {visualParts.map((item, index) => {
+
+                    return (
+                        <div
+
+                            key={index}
+                            style={{
+                                width: widths[index],
+
+                                backgroundColor: item.color
+                            }}
+                            className="progressVisualPart"
+                        />
+                    );
+                })}
             </div>
-        </div>
+        </>
     );
 };
 

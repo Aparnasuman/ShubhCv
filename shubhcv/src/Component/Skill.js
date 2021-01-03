@@ -3,22 +3,55 @@ import "./skill.css";
 import ProgressBar from "./Progressbar.js";
 
 
-const testData = [
-    { bgcolor: "#6a1b9a", completed: 60, lang: "JAVA" },
-    { bgcolor: "#00695c", completed: 30, lang: "PYTHON" },
-    { bgcolor: "#ef6c00", completed: 70, lang: "NODEJS" },
-    { bgcolor: "rgb(18 24 125)", completed: 65, lang: "cryptography" }
-];
+
 function Skill() {
 
     return (
         <div className="skill container-fluid">
             <div className="container">
                 <div className="col-md-12 skil">Skill</div>
-                {testData.map((item, idx) => (
 
-                    <ProgressBar key={idx} bgcolor={item.bgcolor} completed={item.completed} langauge={item.lang} />
-                ))}
+                <ProgressBar
+                    label="Node Js"
+                    visualParts={[
+                        {
+                            percentage: "80%",
+                            color: "blue"
+                        }
+                    ]}
+                />
+                <ProgressBar
+                    label="java"
+
+                    visualParts={[
+                        {
+                            percentage: "43%",
+                            color: "indianred"
+                        }
+                    ]}
+                />
+                <ProgressBar
+                    label="C"
+                    backgroundColor="lightgrey"
+                    visualParts={[
+                        {
+                            percentage: "53%",
+                            color: "steelblue"
+                        },
+
+                    ]}
+                />
+                <ProgressBar
+                    label="PYTHON"
+                    visualParts={[
+
+                        {
+                            percentage: "78%",
+                            color: "tomato"
+                        }
+
+                    ]}
+                />
             </div>
         </div>
     )

@@ -5,6 +5,7 @@ import Profile from "./Component/Profile.js";
 import Experience from "./Component/Experience.js";
 import Education from "./Component/Education.js";
 import Skill from "./Component/Skill";
+import Footer from "./Component/Footer";
 class Home extends React.Component {
   render() {
     return (
@@ -15,6 +16,7 @@ class Home extends React.Component {
         <Experience />
         <Education />
         <Skill />
+        <Footer />
       </div>
     );
   }

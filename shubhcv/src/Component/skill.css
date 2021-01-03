@@ -1,5 +1,6 @@
 .skill {
   background-color: black;
+  padding: 50px 0px;
 }
 .skil {
   font-size: 4rem;
@@ -8,4 +9,18 @@
 .lang {
   font-size: 20px;
   color: #ffff;
+}
+.progressVisualFull {
+  display: flex;
+  height: 15px;
+  margin: 20px 0;
+}
+
+.progressVisualPart {
+  transition: width 5s ease;
+}
+
+.progressLabel {
+  color: #fff;
+  font-size: 20px;
 }
